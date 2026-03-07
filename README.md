@@ -6,7 +6,7 @@
 
 ## 🔧 Instalação
 
-git clone <repo> <br>
+git clone [<repo>](https://github.com/Dudu-Brancalhao/nexus-dashboard.git) <br>
 cd project <br>
 npm install <br>
 npm run dev <br>
