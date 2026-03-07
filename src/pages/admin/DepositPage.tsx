@@ -98,7 +98,7 @@ function AdminDeposit() {
         </div>
 
         <div className='grid lg:grid-cols-[1fr_340px] gap-6'>
-          <form onSubmit={handleSubmit}>
+          <form onSubmit={handleSubmit} noValidate>
             <div className="flex flex-col rounded-xl bg-[var(--color-card-bg)] border border-[var(--color-border)]">
               <div className="flex flex-col gap-4 p-4 sm:flex-row sm:items-center sm:justify-between border-b-1 border-[var(--color-separator)]">
                 <div>
