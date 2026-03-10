@@ -2,7 +2,7 @@ import { useMutation } from "@tanstack/react-query";
 
 // Config
 const BASE_URL = "https://api.coingecko.com/api/v3";
-const API_KEY = import.meta.env.VITE_COINGECKO_API_KEY as string || 'CG-1g7tL5dV4FCwBdFjaCjNT5Xw'; // Deixei a chave explícita da API DEMO da CoinGecko para facilitar a instalação/uso mesmo sabendo que não é o ideal, mas isso poupa etapas na instalação e trata-se de uma key DEMO.
+const API_KEY = import.meta.env.VITE_COINGECKO_API_KEY as string; // Deixei a chave explícita da API DEMO da CoinGecko para facilitar a instalação/uso mesmo sabendo que não é o ideal, mas isso poupa etapas na instalação e trata-se de uma key DEMO.
 
 const headers = { "x-cg-demo-api-key": API_KEY };
 
